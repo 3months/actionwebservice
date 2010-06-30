@@ -1,14 +1,14 @@
 Gem::Specification.new do |s|
   s.platform = Gem::Platform::RUBY
-  s.name = 'actionwebservice'
+  s.name = 'jmeeks-actionwebservice'
   s.summary = "Web service support for Action Pack."
   s.description = %q{Adds WSDL/SOAP and XML-RPC web service support to Action Pack}
   s.version = '2.3.5'
 
-  s.author = "Leon Breedt, Kent Sibilev"
-  s.email = "bitserf@gmail.com, ksibilev@yahoo.com"
+  s.author = "Jonathan Meeks, Leon Breedt, Kent Sibilev"
+  s.email = "jonathanmeeks@gmail.com, bitserf@gmail.com, ksibilev@yahoo.com"
   s.rubyforge_project = "aws"
-  s.homepage = "http://www.rubyonrails.org"
+  s.homepage = "http://github.com/jmeeks/actionwebservice"
 
   s.add_dependency('actionpack', '= 2.3.5')
   s.add_dependency('activerecord', '= 2.3.5')
